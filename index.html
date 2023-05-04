@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="Descrição" content="Uma aplicação de uma agenda virtual">
+</head>
+<body>
+
+    <section class="main">
+
+        <div class="agenda_header">
+            <h1>Agenda de Contatos</h1>
+
+            <form id="agenda_header_form">
+                <fieldset>
+                    <legend>Insira o nome e o número de telefone</legend>
+                    <label for="name">Nome</label>
+                    <input type="text" required name="name" id="name" tabindex="0">
+                    
+                    <label for="telephone">Telefone</label>
+                    <input type="tel" required name="telephone" id="telephone" tabindex="0">
+                    
+                    <button type="submit">Adicionar</button>
+                </fieldset>
+                </form>
+        </div>
+
+        <div class="agenda_content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
