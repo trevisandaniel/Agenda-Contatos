@@ -22,7 +22,9 @@
                     <input type="text" required name="name" id="name" tabindex="0">
                     
                     <label for="telephone">Telefone</label>
-                    <input type="tel" required name="telephone" id="telephone" tabindex="0">
+                    <input type="tel" required name="telephone" id="telephone" tabindex="0"
+                    pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{5})-([0-9]{4})"
+                    title="Formato do Nº telefone deve ser: (99) 12345-6789">
                     
                     <button type="submit">Adicionar</button>
                 </fieldset>
